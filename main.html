@@ -9,20 +9,29 @@
 <body>
 	<form>
 		<input type="text" id="name" placeholder="Name">
-		<br>
+		<br><br>
 		<input type="text" id="phone" placeholder="Phone Number" >
-		<br>		
+		<br><br>		
 		<input type="text" id="address" placeholder="Address"> 
-		<br>
-		<!-- <p>Have you ever lived with a Dog before?</p> -->
-		<input type="checkbox" id="checkbox">Have you ever lived with a Dog before?
-		<p>Please select your preferred breeds</p>
-		<input type="checkbox" id="select">Labrador Retriever
-		<input type="checkbox" id="select">Golden Retriever
-		<input type="checkbox" id="select">Beagle
-		<input type="checkbox" id="select">Pug
-		<br>
-		<input type="submit" id="submit" value="submit">
+		<br><br>
+		<label> 
+		<input 
+         type="checkbox" 
+        id="checkbox" 
+        value="Have you ever lived with a Dog before?"
+        >Have you ever lived with a Dog before?
+		</label>
+		<br><br>
+
+		<select id="multiSelect" multiple >
+			 <option>Golden Retriever</option>
+            <option>Labrador</option>
+            <option>German Shepherd</option>
+		</select>
+		<br><br>
+		
+		 
+		<input type="submit" id="submit" value="Submit">
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
